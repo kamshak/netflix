@@ -1,0 +1,275 @@
+body{
+    margin: 0px;
+    font-size: 16px;
+} 
+.sec{
+    height: 800px;
+    background-image: url("./images/netflx.jpg");
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.big{
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+h2{
+    color: red;
+    padding-left: 50px;
+    font-size: 40PX;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.large{
+    font-size: 25px;
+}
+a{
+    color: #333;
+}
+.join:hover{
+   text-decoration: underline;
+}
+.qatar:hover{
+    text-decoration: underline;
+}
+.edna{
+    border: 1px solid red; 
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    width: 15%;
+    color: #f3f3f3;
+    background-color: red; 
+}
+.nen{
+    color: white;
+    font-size: 16px;
+    margin-right: 60px;
+    border: 1px solid red;
+    background-color: red;
+    width: 10%;
+    text-decoration: none;
+    height: 5%;
+    border-radius: 3px;
+    margin-top: 50px;
+}
+.cane{
+    color: #333;
+    padding-top: 30px;
+}
+.grace{
+    color: #333;
+    padding-top: 30px;  
+}
+.ape{
+    color: #333;
+    padding-top: 30px;
+}
+.join{
+    color: #333;
+    padding-top: 30px;
+}
+.aaron{
+   padding-left: 10%;
+   color: #333; 
+}
+.finish{
+    color: #333;
+    font-size: 11px;
+    margin-left: 10%;
+    padding-top: 3%;
+}
+.all{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    font-size: 11px;
+    margin-right: 20%;
+    margin-left: 8%;
+}
+.tmex{
+    background-color: black;
+    height: 40vh;
+    padding-top: 10%;
+}
+form{
+    display: flex;
+    
+    justify-content: center;
+    align-items: baseline;
+}
+input{
+    padding: 20px;
+    width: 40%;
+    padding-top: 3.2%;
+}
+p{
+    display: flex;
+    color: white;
+    justify-content: center;  
+    font-size: 16px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+h1{
+    color: white;
+    font-size: 43px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-left: 40px;
+    padding-top: 20x;
+}
+.boy{
+    background-color: #333;
+    height: 1vh;
+    
+}
+aside{
+  background-color: black;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+}
+main{
+    color: white;
+    font-size: 50px;
+    margin-top: 40px;
+}
+img{
+    width: 39%;
+    height: 80%;
+    display: flex;
+    align-content: center;
+}
+li{
+    color: white;
+    list-style: none;
+    padding-left: 40px;
+    font-size: 30px;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+h1,li{
+    margin: 1px;
+}
+@media all and(max-width:500px){
+    .sec{
+        flex-direction: column;
+        font-size: small;
+        text-align: center;
+    }
+}
+article{
+    background-color: black;
+    height: 40vh;
+    padding: 10px;
+}
+footer{
+    background-color: black;
+    display: flex;
+    height: 55vh;
+}
+section{
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    font-family: sans-serif;
+}
+.end{
+    background-color: black;
+    padding: 10px;
+    height: 135vh;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+ul{
+    color: white;
+    justify-content: center;
+    font-size: 50px;
+    display: flex;
+}
+td{
+    display: flex;
+    align-self: center;
+}
+.yam{
+   color: white;
+   font-size: 25px;
+   width: 70%;
+   align-items: center;
+   display: flex;
+   justify-content: flex-start;
+   height: 10vh;
+   padding-left: 25px;
+   margin-left: 20%;
+   background-color: #333;
+   border: 1px solid #333; 
+}
+.sugar{
+    color: white;
+    font-size: 25px;
+    width: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    height: 10vh;
+    padding-left: 25px;
+    margin-left: 20%;
+    background-color: #333;
+    border: 1px solid #333;
+}
+.milk{
+    color: white;
+    font-size: 25px;
+    width: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    height: 10vh;
+    padding-left: 25px;
+    margin-left: 20%;
+    background-color: #333;
+    border: 1px solid #333;
+}
+.beans{
+    color: white;
+    font-size: 25px;
+    width: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    height: 10vh;
+    padding-left: 25px;
+    margin-left: 20%;
+    background-color: #333;
+    border: 1px solid #333;
+}
+.rice{
+    color: white;
+    font-size: 25px;
+    width: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    height: 10vh;
+    padding-left: 25px;
+    margin-left: 20%;
+    background-color: #333;
+    border: 1px solid #333;
+}
+.soap{
+    color: white;
+    font-size: 25px;
+    width: 70%;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    height: 10vh;
+    margin-left: 20%;
+    padding-left: 25px;
+    background-color: #333;
+    border: 1px solid #333;
+}
